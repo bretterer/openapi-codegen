@@ -1,0 +1,12 @@
+{
+    "name": "bretterer/swagger-generator",
+    "description": "Extendable Swagger Code Generator for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Retterer",
+            "email": "bretterer@gmail.com"
+        }
+    ],
+    "require": {}
+}
