@@ -7,7 +7,7 @@ class PlaceholderTest extends TestCase
     /** @test */
     public function it_works()
     {
-        $this->assertTrue(true); 
+        $this->assertTrue(true);
     }
     
 }
