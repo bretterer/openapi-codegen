@@ -1,6 +1,6 @@
 {
-    "name": "bretterer/swagger-generator",
-    "description": "Extendable Swagger Code Generator for PHP",
+    "name": "bretterer/openapi-codegen",
+    "description": "Extendable Open API Code Generator for PHP",
     "license": "MIT",
     "authors": [
         {
@@ -8,5 +8,8 @@
             "email": "bretterer@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    }
 }
