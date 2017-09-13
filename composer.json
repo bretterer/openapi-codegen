@@ -8,7 +8,9 @@
             "email": "bretterer@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/console": "^3.3"
+    },
     "require-dev": {
         "phpunit/phpunit": "^6.3"
     },
