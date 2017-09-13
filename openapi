@@ -50,3 +50,4 @@ if (!defined('OPENAPI_COMPOSER_INSTALL')) {
 
 require OPENAPI_COMPOSER_INSTALL;
 
+$openapi = require_once __DIR__ . '/src/bootstrap/openapi.php';
