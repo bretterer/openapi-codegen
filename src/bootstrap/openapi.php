@@ -1,9 +1,12 @@
 <?php
 
-use Symfony\Component\Console\Application;
+use OpenApi\OpenApi;
 
-$application = new Application('OpenApi Codegen', '0.1.0');
+$openApi = new OpenApi();
 
-$application->add(new \OpenApi\Commands\Test());
+$openApi->add(
+    'filesystem',
+    \Symfony\Component\Filesystem\Filesystem::class
+);
 
-$application->run();
+$openApi->run();
