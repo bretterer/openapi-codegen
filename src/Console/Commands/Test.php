@@ -6,9 +6,16 @@
  * of the MIT license. See the LICENSE file for details.                      *
  ******************************************************************************/
 
-use OpenApi\OpenApi;
+namespace OpenApi\Console\Commands;
 
-$openApi = new OpenApi();
+class Test extends Command
+{
+    protected $name = "test:this";
 
-$console = new \OpenApi\Console\Kernel();
-$console->run();
+    protected $description = "Some Description";
+
+    public function handle()
+    {
+        print 'hello';
+    }
+}
