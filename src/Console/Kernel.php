@@ -8,6 +8,7 @@
 
 namespace OpenApi\Console;
 
+use OpenApi\Console\Commands\GenerateModel;
 use OpenApi\Console\Commands\Test;
 use Symfony\Component\Console\Application as SymfonyConsole;
 use OpenApi\OpenApi;
@@ -16,7 +17,8 @@ use Symfony\Component\Console\Input\InputOption;
 class Kernel extends SymfonyConsole
 {
     protected $commands = [
-        Test::class
+        Test::class,
+        GenerateModel::class
     ];
 
     public function __construct()

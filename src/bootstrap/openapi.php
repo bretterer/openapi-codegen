@@ -8,6 +8,8 @@
 
 use OpenApi\OpenApi;
 
+define('OPENAPI_ROOT_FOLDER', dirname(__DIR__));
+
 $openApi = new OpenApi();
 
 $console = new \OpenApi\Console\Kernel();
